@@ -17,6 +17,9 @@ class Animal:
 
     def move(self):
         print(f'{self._name} is moving')
+    
+    def eat(self):
+        print(f'{self._name} is eating')
 
 class Book:
     """"Book Class"""
@@ -89,6 +92,7 @@ print(Animal1.name)
 Animal1.name = 'Lion'
 print(Animal1.name)
 Animal1.move()
+Animal1.eat()
 
 print('\n=================\n')
 
