@@ -16,7 +16,7 @@ class Animal:
         del self._name
 
     def move(self):
-        print(f'{self._name} is walking')
+        print(f'{self._name} is moving')
 
 class Book:
     """"Book Class"""
