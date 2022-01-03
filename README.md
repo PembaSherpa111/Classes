@@ -1,2 +1,2 @@
 # Classes
-This is a erercise related to Classes.
+This is a exercise related to Classes.
