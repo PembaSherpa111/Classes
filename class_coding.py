@@ -23,11 +23,9 @@ class Animal:
 
 class Book:
     """"Book Class"""
-    def __init__(self,title, author, publisher, published_date):
+    def __init__(self,title, author):
         self._title = title
         self._author = author
-        self._publisher = publisher
-        self._published_date = published_date
 
     def __str__(self):
         return (f"title: {self._title}, author: {self._author}, publisher: {self._publisher}, published date: {self._published_date}")
